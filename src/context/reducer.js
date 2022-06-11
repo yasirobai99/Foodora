@@ -15,26 +15,26 @@ const reducer = (state, action) => {
                 user: action.user,
             };
 
-            case actionType.SET_FOOD_ITEMS:
+        case actionType.SET_FOOD_ITEMS:
             return {
                 ...state,
                 foodItems: action.foodItems,
             };
 
-            case actionType.SET_CART_SHOW:
+        case actionType.SET_CART_SHOW:
             return {
                 ...state,
                 cartShow: action.cartShow,
             };
 
-            case actionType.SET_CARTITEMS:
-                return {
-                  ...state,
-                  cartItems: action.cartItems,
-                };
-                
-            default:
-                return state;
+        case actionType.SET_CARTITEMS:
+            return {
+                ...state,
+                cartItems: action.cartItems,
+            };
+
+        default:
+            return state;
     }
 };
 
