@@ -13,8 +13,8 @@ import reducer from "./context/reducer";
 ReactDOM.render(
   <Router>
     <StateProvider initialState={initialState} reducer={reducer}>
-    <App />
+      <App />
     </StateProvider>
-    </Router>,
+  </Router>,
   document.getElementById("root")
 );
