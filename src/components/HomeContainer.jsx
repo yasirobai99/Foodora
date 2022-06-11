@@ -28,7 +28,7 @@ The Fastest Delivery in
 </p>
 
 <p className="text-base text-textColor text-center md:text-left md:w-[80%]">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maxime quia inventore necessitatibus commodi neque quo ex reiciendis cum similique voluptatem impedit fugit, pariatur atque voluptate quaerat. Unde, amet accusantium id dolor porro, quibusdam fuga praesentium aspernatur neque, perspiciatis expedita.
+This is a website where you can order the food,grocery items and maney more and this website will help you to delivery this items to your home and its user friendly and your data will be protected as its encrypted and all the items we deliver is 100% orignal and we provide the Fastest delivery in your city So waiting for what start Shopping.
 </p>
 
 <button

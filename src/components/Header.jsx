@@ -3,14 +3,14 @@ import { MdShoppingBasket, MdAdd, MdLogout } from "react-icons/md";
 import { motion } from "framer-motion";
 
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-
 import { app } from "../firebase.config";
+
 import Logo from "../img/logo.png";
 import Avatar from "../img/avatar.png";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../context/StateProvider";
 import { actionType } from "../context/reducer";
-//import { async } from "@firebase/util";
+
 
 const Header = () => {
   const firebaseAuth = getAuth(app);
@@ -53,7 +53,7 @@ const Header = () => {
 
   return (
   <header className="fixed z-50 w-screen p-3 px-4 md:p-6 md:px-16 bg-primary">
-      {/* pc */}
+      {/* PC Screen */}
       <div className="hidden md:flex w-full h-full items-center justify-between">
         <Link to={"/"} className="flex items-center gap-2">
           <img src={Logo} className="w-10 object-cover" alt="logo" />
@@ -131,7 +131,7 @@ const Header = () => {
         </div>
 
       </div>
-      {/* mobile */}
+      {/* Mobile Screen */}
       <div className="flex items-center justify-between md:hidden w-full h-full ">
       <div className="relative flex items-center justify-center"
       onClick={showCart}
