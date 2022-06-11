@@ -11,6 +11,7 @@ body {
     Roboto, Oxygen, Ubuntu, Cantarell, "open Sans",
     "Helvetica Neue", sans-serif;
 }
+
 html,
 body {
   scroll-behavior: smooth;
@@ -20,4 +21,3 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
