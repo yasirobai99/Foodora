@@ -24,6 +24,6 @@ Server: Nodejs, Firebase
 
 ![Foodora/admin](https://user-images.githubusercontent.com/83706868/173371240-66a232b7-9e45-4c16-b56e-ab6afca25957.png)
 
-## Link to open
+<!-- ## Link to open
 
-[Foodora](http://localhost:3000)
+[Foodora](http://localhost:3000) -->
